@@ -1,0 +1,15 @@
+GET http://localhost:4004/odata/v4/my/Orderset 
+
+
+###
+
+POST  http://localhost:4004/odata/v4/my 
+
+header name: /Orderset
+Content-Type: application/json
+
+{"orderid":7000,
+"customername":"Shyaam",
+"contactperson":"Mark Davis",
+"grossamount":10000,
+"currency":"USD"}
